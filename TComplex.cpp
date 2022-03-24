@@ -96,3 +96,7 @@ std::istream& operator>>(std::istream& p, TComplex& f)
 	p >> f.im;
 	return p;
 }
+double TComplex::Module(double _im, double _re)
+{
+	return sqrt(pow(_re, 2) + pow(_im, 2));
+}
