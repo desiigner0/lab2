@@ -10,6 +10,8 @@ public:
 	double GetRe();
 	void SetIm(double _im);
 	void SetRe(double _re);
+	double Module(double _im, double _re);
+	void Trig(double _im, double _re);
 	TComplex operator+(TComplex& p);
 	TComplex operator-(TComplex& p);
 	TComplex operator*(TComplex& p);
